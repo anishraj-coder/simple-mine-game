@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@theme{
+    --color-Background:#121212;
+    --color-divider:#444444;
+    --color-accent:#888888;
+    --color-stext:#B0B0B0;
+    --color-ptext: #E0E0E0;
+}
+/*
+Background: #121212 (charcoal black)
+Primary Text: #E0E0E0 (light gray)
+Secondary Text: #B0B0B0 (medium gray)
+Borders/Dividers: #444444 (dark gray)
+Accent: #888888 (soft gray)*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/Assets/Fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/Assets/Fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/Assets/Fonts/Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/Assets/Fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/Assets/Fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/Assets/Fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.Gilroy{
+    font-family:'Gilroy';
+}
+.no-spinners::-webkit-inner-spin-button,
+.no-spinners::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.no-spinners {
+    -moz-appearance: textfield;
+}
