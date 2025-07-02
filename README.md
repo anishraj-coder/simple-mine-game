@@ -4,13 +4,13 @@
 ## 📸 Preview
 
 ### 🧮 Setup Screen
-![Setup Screen](./screenshots/home-screen.png)
+![Setup Screen](public/screenshots/home-screen.png)
 
 ### 🎯 Gameplay Grid
-![Game in Progress](./screenshots/game-in-progress.png)
+![Game in Progress](public/screenshots/game-in-progress.png)
 
 ### 💥 Game Over
-![Game Over](./screenshots/game-over.png)
+![Game Over](public/screenshots/game-over.png)
 ---
 ## 📂 Code Overview
 
@@ -167,7 +167,7 @@ Experience **Diamond Hunt** live — no setup required! Just open your browser a
 ### 🌐 Live Demo
 Deployed and running seamlessly on **Netlify** — check it out here:
 
-> 🔗 [ https://diamond-hunt.netlify.app/ ]
+> 🔗 [ https://diamond-hunt.netlify.app/ ]  
 
 
 ---
