@@ -167,7 +167,7 @@ Experience **Diamond Hunt** live — no setup required! Just open your browser a
 ### 🌐 Live Demo
 Deployed and running seamlessly on **Netlify** — check it out here:
 
-> 🔗 [https://diamond-hunt.netlify.app](https://diamond-hunt.netlify.app)
+> 🔗 [ https://diamond-hunt.netlify.app/ ]
 
 
 ---
