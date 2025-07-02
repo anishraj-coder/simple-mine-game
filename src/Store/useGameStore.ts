@@ -13,6 +13,7 @@ export interface GameState{
 export interface GameAction{
     revealCell: (idx:number)=>void,
     startGame: (prob:number)=>void,
+    resetGame:()=>void,
 }
 const generateGrid=(prob:number):cellValue[]=>{
     const nDiamond= Math.floor(16*prob/100);
@@ -52,6 +53,14 @@ export const useGameStore=create<GameAction&GameState>()(persist(devtools(
             grid: generateGrid(prob),
             gameOver:false,
             probability:prob,
+            revealed:Array(16).fill(0),
+        })),
+        resetGame: ()=>set(()=>({
+            score:0,
+            grid: generateGrid(0),
+            gameOver:false,
+            probability:80,
+            highestScore:0,
             revealed:Array(16).fill(0),
         }))
     })
