@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512"><svg width="512" height="512" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="50" fill="white"></circle>
+
+  <g transform="rotate(-25 50 50)">
+    <polygon points="35,30 20,50 50,85 80,50 65,30" fill="#00D8D6" stroke="#00B3B0" stroke-width="2"></polygon>
+    <line x1="35" y1="30" x2="50" y2="85" stroke="#00B3B0" stroke-width="1.5"></line>
+    <line x1="65" y1="30" x2="50" y2="85" stroke="#00B3B0" stroke-width="1.5"></line>
+    <line x1="20" y1="50" x2="80" y2="50" stroke="#00B3B0" stroke-width="1.5"></line>
+    <line x1="50" y1="30" x2="50" y2="85" stroke="#00B3B0" stroke-width="1.5"></line>
+  </g>
+
+  <circle cx="74" cy="26" r="9" fill="#1a1a1a" stroke="#000000" stroke-width="2"></circle>
+  <circle cx="71" cy="23" r="2" fill="#555"></circle>
+  <rect x="72" y="15" width="4" height="4" rx="1" fill="#333"></rect>
+  <line x1="74" y1="15" x2="79" y2="10" stroke="#654321" stroke-width="2"></line>
+  <circle cx="79" cy="10" r="2" fill="#FFA500"></circle>
+  <line x1="77" y1="8" x2="81" y2="12" stroke="#FFA500" stroke-width="1.5"></line>
+  <line x1="81" y1="8" x2="77" y2="12" stroke="#FFA500" stroke-width="1.5"></line>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
