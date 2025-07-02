@@ -42,7 +42,7 @@ const GameStart=()=>{
             <Header/>
             <motion.form initial={'hidden'} animate={'visible'} variants={containerVarient} className={`flex flex-col  items-center justify-center gap-4 h-[80vh]`} onSubmit={(e=>handleSubmit(e))}>
                 <motion.label variants={itemVarient!} htmlFor="input" className={`text-ptext font-medium Gilroy text-center text-xl italic`}>Enter the Probability</motion.label>
-                <motion.input variants={itemVarient} value={prob}  onChange={(e)=>setProb(Number(e.target.value))} type="number" className={`Gilroy text-2xl placeholder:text-sm text-center text-ptext px-4 p-2 w-1/3 rounded-xl  font-medium bg-accent outline-none active:outline-1 outline-divider lg:w-2/15 no-spinners`} placeholder={`Enter probability`}/>
+                <motion.input variants={itemVarient} value={prob}  onChange={(e)=>setProb(Number(e.target.value))} type="number" className={`Gilroy text-2xl placeholder:text-sm text-center text-ptext px-4 p-2 w-1/3 rounded-xl  font-medium bg-divider/80 focus:outline-none focus:ring-2 focus:ring-accent  outline-none lg:w-2/15 no-spinners`} placeholder={`Enter probability`}/>
                 <motion.button variants={itemVarient} disabled={prob === undefined} className={`text-ptext Gilroy px-4 py-2 rounded-lg bg-accent outline-2 outline-accent active:outline-divider disabled:text-stext`}>Submit</motion.button>
             </motion.form>
         </div>
